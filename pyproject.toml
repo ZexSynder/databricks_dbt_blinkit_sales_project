@@ -1,0 +1,20 @@
+[project]
+name = "databricks-dbt-blinkit-sales-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Fathur Rahman", email = "fathurrahman2830@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "dbt-core>=1.12.5",
+    "dbt-databricks>=1.10.9",
+]
+
+[project.scripts]
+databricks-dbt-blinkit-sales-project = "databricks_dbt_blinkit_sales_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"

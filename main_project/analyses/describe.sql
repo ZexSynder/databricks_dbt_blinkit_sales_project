@@ -1,0 +1,1 @@
+describe table {{ source('blinkit_raw', 'customer_feedback') }}

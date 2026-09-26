@@ -1,0 +1,59 @@
+sources:
+  - name: blinkit_raw
+    database: blinkit_2  
+    schema: raw  
+    tables:
+      - name: orders
+        columns:
+          - name: order_id
+            tests:
+              - unique
+              - not_null
+      - name: customers
+        columns:
+          - name: customer_id
+            tests:
+              - unique
+              - not_null
+      - name: customer_feedback
+        columns:
+          - name: feedback_id
+            tests:
+              - unique
+              - not_null
+      - name: products
+        columns:
+          - name: product_id
+            tests:
+              - unique
+              - not_null
+      - name: delivery_performance
+        columns:
+          - name: delivery_partner_id
+            tests:
+              - unique
+              - not_null
+      - name: marketing_performance
+        columns:
+          - name: campaign_id
+            tests:
+              - unique
+              - not_null
+      - name: order_items
+        columns:
+          - name: order_item_id
+            tests:
+              - unique
+              - not_null
+      - name: inventory
+        columns:
+          - name: inventory_id
+            tests:
+              - unique
+              - not_null
+          - name: product_id
+            tests:
+              - not_null
+          - name: date
+            tests:
+              - not_null

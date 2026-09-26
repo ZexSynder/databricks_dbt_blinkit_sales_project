@@ -1,0 +1,10 @@
+snapshots:
+  - name: dim_customers_feedback
+    relation: ref ('customers_feedback') # source('my_source', 'my_table') or ref('my_model')
+    config:
+      database: blinkit_2
+      schema: gold
+      strategy: timestamp
+      unique_key: feedback_id
+      updated_at: customer_feedback_updated_timestamp
+      dbt_valid_to_current: "to_date('9999-12-31')"
