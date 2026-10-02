@@ -111,4 +111,9 @@ The OBT combines relevant dimensions and facts into a single analytical dataset.
 ---
 
 # Dimensional Modelling
+Star Schema
 <img width="493" height="329" alt="image" src="https://github.com/user-attachments/assets/81ba979a-6fa5-4f0c-9eb4-bd87f281495c" />
+
+# Dashboard Using Power BI
+<img width="584" height="328" alt="image" src="https://github.com/user-attachments/assets/08a69bc2-c3e7-4ef6-b568-440e5cc2da04" />
+
