@@ -9,3 +9,4 @@ logs/
 .vscode
 # Virtual environments
 .venv
+.env
